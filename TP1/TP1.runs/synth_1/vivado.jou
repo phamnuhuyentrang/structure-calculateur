@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Sep 30 15:03:53 2019
+# Process ID: 25789
+# Current directory: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.runs/synth_1
+# Command line: vivado -log and2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source and2.tcl
+# Log file: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.runs/synth_1/and2.vds
+# Journal file: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source and2.tcl -notrace

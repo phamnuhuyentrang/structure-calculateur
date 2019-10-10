@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Sep 30 15:58:37 2019
+# Process ID: 32322
+# Current directory: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.sim/sim_1/behav/xsim/xsim.dir/add2_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /volsme/user1x/users/mi01a014/Bureau/TP1/TP1.sim/sim_1/behav/xsim/xsim.dir/add2_behav/webtalk/xsim_webtalk.tcl -notrace
