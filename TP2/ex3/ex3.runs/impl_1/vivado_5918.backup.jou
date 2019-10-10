@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct  7 16:10:08 2019
+# Process ID: 5918
+# Current directory: /volsme/user1x/users/mi01a014/Bureau/TP2/ex3/ex3.runs/impl_1
+# Command line: vivado -log ex3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ex3.tcl -notrace
+# Log file: /volsme/user1x/users/mi01a014/Bureau/TP2/ex3/ex3.runs/impl_1/ex3.vdi
+# Journal file: /volsme/user1x/users/mi01a014/Bureau/TP2/ex3/ex3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source ex3.tcl -notrace

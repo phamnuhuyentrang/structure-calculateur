@@ -1,0 +1,803 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct  7 15:24:19 2019
+# Process ID: 31057
+# Current directory: /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1
+# Command line: vivado -log compt_sync.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source compt_sync.tcl -notrace
+# Log file: /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync.vdi
+# Journal file: /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source compt_sync.tcl -notrace
+Command: link_design -top compt_sync -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:15]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:15]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_2[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_2[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_2[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_2[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_5_4[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_5_4[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_5_4[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_5_4[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_6[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_6[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_6[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_6[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_9_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_9_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_9_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_9_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_10[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_10[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_10[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_10[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_13_12[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_13_12[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_13_12[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_13_12[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_14[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_14[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_14[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_14[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_3_0[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_4[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_11_8[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_12[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[4]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[4]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[5]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[5]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[6]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[6]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[7]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_7_0[7]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[4]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[4]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[5]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[5]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[6]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[6]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[7]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_15_8[7]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:146]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:147]
+WARNING: [Vivado 12-507] No nets matched 'BTN_IBUF[0]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:405]
+WARNING: [Vivado 12-507] No nets matched 'BTN_IBUF[1]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:408]
+WARNING: [Vivado 12-507] No nets matched 'BTN_IBUF[2]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:411]
+WARNING: [Vivado 12-507] No nets matched 'BTN_IBUF[3]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:414]
+WARNING: [Vivado 12-507] No nets matched 'BTN_IBUF[4]'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:417]
+WARNING: [Vivado 12-507] No nets matched 'BTN_C_IBUF'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:422]
+WARNING: [Vivado 12-507] No nets matched 'BTN_H_IBUF'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:427]
+WARNING: [Vivado 12-507] No nets matched 'BTN_B_IBUF'. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:432]
+Finished Parsing XDC File [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1620.410 ; gain = 0.000 ; free physical = 1676 ; free virtual = 35247
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+8 Infos, 108 Warnings, 101 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1658.363 ; gain = 32.016 ; free physical = 1675 ; free virtual = 35246
+
+Starting Cache Timing Information Task
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:10]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2072.223 ; gain = 413.859 ; free physical = 1301 ; free virtual = 34871
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+Ending Logic Optimization Task | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+Ending Netlist Obfuscation Task | Checksum: 16efc0c07
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 108 Warnings, 101 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2188.191 ; gain = 561.844 ; free physical = 1181 ; free virtual = 34752
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2188.191 ; gain = 0.000 ; free physical = 1181 ; free virtual = 34752
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2220.207 ; gain = 0.000 ; free physical = 1178 ; free virtual = 34749
+INFO: [Common 17-1381] The checkpoint '/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file compt_sync_drc_opted.rpt -pb compt_sync_drc_opted.pb -rpx compt_sync_drc_opted.rpx
+Command: report_drc -file compt_sync_drc_opted.rpt -pb compt_sync_drc_opted.pb -rpx compt_sync_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1167 ; free virtual = 34737
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 122cd5fc7
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1167 ; free virtual = 34737
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1167 ; free virtual = 34737
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:10]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	BTN_D_IBUF_inst (IBUF.O) is locked to IOB_X0Y16
+	BTN_D_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 18c3e3aa1
+
+Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.23 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1159 ; free virtual = 34729
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 23a1f6e3d
+
+Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1159 ; free virtual = 34729
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 23a1f6e3d
+
+Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1159 ; free virtual = 34729
+Phase 1 Placer Initialization | Checksum: 23a1f6e3d
+
+Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1159 ; free virtual = 34729
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 23a1f6e3d
+
+Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1158 ; free virtual = 34728
+
+Phase 2.2 Global Placement Core
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2.2 Global Placement Core | Checksum: 21e7dcfaa
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34722
+Phase 2 Global Placement | Checksum: 21e7dcfaa
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34723
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 21e7dcfaa
+
+Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34723
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 26307a89d
+
+Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34723
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 232bbe192
+
+Time (s): cpu = 00:00:00.56 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34723
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 232bbe192
+
+Time (s): cpu = 00:00:00.56 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1152 ; free virtual = 34723
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.40 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1150 ; free virtual = 34720
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.40 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1150 ; free virtual = 34720
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.40 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1150 ; free virtual = 34720
+Phase 3 Detail Placement | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.40 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1150 ; free virtual = 34720
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.66 ; elapsed = 00:00:00.40 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1150 ; free virtual = 34720
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 22b711c8e
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+Phase 4.4 Final Placement Cleanup | Checksum: 26e414719
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 26e414719
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+Ending Placer Task | Checksum: 1b41f4c05
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1151 ; free virtual = 34721
+INFO: [Common 17-83] Releasing license: Implementation
+45 Infos, 110 Warnings, 101 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1156 ; free virtual = 34727
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1155 ; free virtual = 34726
+INFO: [Common 17-1381] The checkpoint '/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file compt_sync_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1149 ; free virtual = 34720
+INFO: [runtcl-4] Executing : report_utilization -file compt_sync_utilization_placed.rpt -pb compt_sync_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file compt_sync_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2251.992 ; gain = 0.000 ; free physical = 1153 ; free virtual = 34724
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC PLCK-12] Clock Placer Checks: Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	BTN_D_IBUF_inst (IBUF.O) is locked to IOB_X0Y16
+	BTN_D_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: e386657f ConstDB: 0 ShapeSum: d098e686 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: c69a59a2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2327.418 ; gain = 52.676 ; free physical = 1044 ; free virtual = 34614
+Post Restoration Checksum: NetGraph: 1e68dec8 NumContArr: a8317ada Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: c69a59a2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2333.414 ; gain = 58.672 ; free physical = 1031 ; free virtual = 34601
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: c69a59a2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2348.414 ; gain = 73.672 ; free physical = 1014 ; free virtual = 34585
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: c69a59a2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2348.414 ; gain = 73.672 ; free physical = 1014 ; free virtual = 34585
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: bf3da8d5
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2356.422 ; gain = 81.680 ; free physical = 1008 ; free virtual = 34579
+Phase 2 Router Initialization | Checksum: bf3da8d5
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2356.422 ; gain = 81.680 ; free physical = 1008 ; free virtual = 34579
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00382684 %
+  Global Horizontal Routing Utilization  = 0.00377408 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 3
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 3
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+Phase 4.1 Global Iteration 0 | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+Phase 4 Rip-up And Reroute | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+Phase 5 Delay and Skew Optimization | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34579
+Phase 6.1 Hold Fix Iter | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34579
+Phase 6 Post Hold Fix | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34579
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00701587 %
+  Global Horizontal Routing Utilization  = 0.00455492 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34579
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1377ae61d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1008 ; free virtual = 34579
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 118eb06f4
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1008 ; free virtual = 34579
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 118eb06f4
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1009 ; free virtual = 34580
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2359.426 ; gain = 84.684 ; free physical = 1025 ; free virtual = 34596
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 111 Warnings, 101 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2359.426 ; gain = 107.434 ; free physical = 1026 ; free virtual = 34597
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2359.426 ; gain = 0.000 ; free physical = 1026 ; free virtual = 34597
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2362.395 ; gain = 2.969 ; free physical = 1024 ; free virtual = 34595
+INFO: [Common 17-1381] The checkpoint '/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file compt_sync_drc_routed.rpt -pb compt_sync_drc_routed.pb -rpx compt_sync_drc_routed.rpx
+Command: report_drc -file compt_sync_drc_routed.rpt -pb compt_sync_drc_routed.pb -rpx compt_sync_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file compt_sync_methodology_drc_routed.rpt -pb compt_sync_methodology_drc_routed.pb -rpx compt_sync_methodology_drc_routed.rpx
+Command: report_methodology -file compt_sync_methodology_drc_routed.rpt -pb compt_sync_methodology_drc_routed.pb -rpx compt_sync_methodology_drc_routed.rpx
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:10]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.runs/impl_1/compt_sync_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file compt_sync_power_routed.rpt -pb compt_sync_power_summary_routed.pb -rpx compt_sync_power_routed.rpx
+Command: report_power -file compt_sync_power_routed.rpt -pb compt_sync_power_summary_routed.pb -rpx compt_sync_power_routed.rpx
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'virtclk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/volsme/user1x/users/mi01a014/Bureau/TP2/exo2/exo2.srcs/constrs_1/imports/TP2/mi01.xdc:10]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+72 Infos, 111 Warnings, 101 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file compt_sync_route_status.rpt -pb compt_sync_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file compt_sync_timing_summary_routed.rpt -pb compt_sync_timing_summary_routed.pb -rpx compt_sync_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file compt_sync_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file compt_sync_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file compt_sync_bus_skew_routed.rpt -pb compt_sync_bus_skew_routed.pb -rpx compt_sync_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  7 15:24:53 2019...
