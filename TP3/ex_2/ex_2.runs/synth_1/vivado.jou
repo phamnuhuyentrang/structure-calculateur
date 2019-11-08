@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 14 14:43:29 2019
+# Process ID: 16026
+# Current directory: /volsme/user1x/users/mi01a014/Bureau/TP3/ex_2/ex_2.runs/synth_1
+# Command line: vivado -log feu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source feu.tcl
+# Log file: /volsme/user1x/users/mi01a014/Bureau/TP3/ex_2/ex_2.runs/synth_1/feu.vds
+# Journal file: /volsme/user1x/users/mi01a014/Bureau/TP3/ex_2/ex_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source feu.tcl -notrace
